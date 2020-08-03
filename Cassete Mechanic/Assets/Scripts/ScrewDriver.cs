@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PopUp : MonoBehaviour
+public class ScrewDriver : MonoBehaviour
 {
    public Vector3 Pop_up;
 
@@ -15,13 +15,13 @@ public class PopUp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Pop_up.x = -0.2f;
-        Pop_up.y = 0.1653445f;
+        Pop_up.x = -0.4f;
+        Pop_up.y = 0.3f;
         Pop_up.z = 1f;
 
 
-        Original.x = -0.1677183f;
-        Original.y = 0.1380489f;
+        Original.x = -0.3085912f;
+        Original.y = 0.2633443f;
         Original.z = 1f;
 
     }
@@ -51,3 +51,4 @@ public class PopUp : MonoBehaviour
          transform.localScale = Original;
     }
 }
+
