@@ -47,10 +47,6 @@ public class drag_object : MonoBehaviour
 
         }
 
-        if(transform.position.y >= -2.52f  ){
-              transform.position = WhenDragOut ;
-
-        }
         if(transform.position.y  <= -5.54f  ){
               transform.position = WhenDragOut ;
 
