@@ -7,6 +7,10 @@ public class Rewinder : MonoBehaviour
    public Vector3 Pop_up;
 
    public Vector3 Original;
+
+   public bool Is_Rewinder_Held = false;
+
+   
     void Start()
     {
         
@@ -35,7 +39,7 @@ public class Rewinder : MonoBehaviour
         {   
 
             
-            
+            Is_Rewinder_Held = true;
             
 
 
